@@ -9,6 +9,7 @@ My tool, created with #Python & #artificialintelligence, specifically, the OpenA
 What's more, it will include the original page titles in the output table, so you don't need to prepare any data in advance. The best part: you don't need experience with virtual machines or programming skills to use this tool.
 
 The principle of the tool is simple:
+
 1. Insert the URLs of the pages for which you need titles and descriptions (you can use the standard list from the Site Audit in #Semrush).
 2. Add keywords that can be used.
 3. Choose the language of generation (English, Spanish, Russian) and click "Create and Download CSV".
@@ -31,16 +32,22 @@ For Mac:
 3. Follow the instructions in the Python Installer.
 
 INSTALLING NECESSARY MODULES
+
 Open the terminal/command prompt.
 Use the following commands to install the necessary modules. (Please make sure Python3 is installed and added to PATH before proceeding. If Python3 was just installed, you might need to restart your terminal/command prompt.)
 
 pip3 install requests
+
 pip3 install beautifulsoup4
+
 pip3 install pandas
+
 pip3 install openai
 
 RUNNING THE SCRIPT
+
 Open file and PUT your KEY
+
 openai.api_key = 'HERE'
 
 Open the terminal/command prompt and navigate to the directory where you saved the script using the cd command.
